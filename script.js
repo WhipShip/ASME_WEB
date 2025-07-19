@@ -91,12 +91,25 @@ document.addEventListener('DOMContentLoaded', function() {
   if (navToggle && navLinks) {
     navToggle.addEventListener('click', function() {
       navLinks.classList.toggle('open');
+      navToggle.classList.toggle('active');
+      // Toggle hamburger animation
+      navToggle.classList.toggle('active');
     });
     // Close menu when a nav link is clicked (for mobile UX)
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', function() {
         navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
+        navToggle.classList.remove('active');
       });
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!navToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
+      }
     });
   }
 
@@ -204,6 +217,14 @@ document.addEventListener('DOMContentLoaded', function() {
           this.checked = false;
         }
       });
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!navToggle.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('open');
+        navToggle.classList.remove('active');
+      }
     });
   }
 }); 
