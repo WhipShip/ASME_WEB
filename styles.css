@@ -435,6 +435,7 @@ body {
   .hero-content {
     gap: 2rem;
     padding: 0 1rem;
+    margin-top: -2rem;
   }
   .hero-title {
     font-size: 2.8rem;
@@ -446,17 +447,37 @@ body {
     font-size: 1rem;
   }
   .event-details-card {
+    flex-direction: column;
+    gap: 1rem;
     padding: 1.5rem;
+    max-width: 100%;
+  }
+  .event-detail {
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
+    padding: 0.6rem 1rem;
   }
   .hero-buttons {
     flex-direction: column;
     gap: 1rem;
     width: 100%;
     max-width: 300px;
+    margin: 0 auto;
   }
   .cta-button {
     width: 100%;
     text-align: center;
+  }
+  .hero-logos {
+    gap: 1rem;
+    margin: 1.5rem auto;
+  }
+  .partner-logo {
+    height: 80px;
+  }
+  .logo-separator {
+    font-size: 2rem;
   }
 }
 
@@ -472,6 +493,19 @@ body {
   }
   .event-detail {
     font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+  }
+  .detail-text {
+    font-size: 0.9rem;
+  }
+  .hero-logos {
+    gap: 0.8rem;
+  }
+  .partner-logo {
+    height: 60px;
+  }
+  .logo-separator {
+    font-size: 1.5rem;
   }
 }
 
@@ -496,19 +530,21 @@ body {
     min-height: 56px;
     padding: 0 6px;
     width: calc(100% - 8px);
+    top: 10px;
   }
   .nav-logo {
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     font-size: 1.3rem;
     margin-right: 8px;
   }
   .nav-toggle {
     display: flex;
+    order: 3;
   }
   .nav-links {
     position: absolute;
-    top: 60px;
+    top: 66px;
     left: 0;
     right: 0;
     background: rgba(24,22,96,0.97);
@@ -522,6 +558,19 @@ body {
     margin: 0;
     z-index: 2;
     display: none;
+    order: 4;
+    width: 100%;
+  }
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+  }
+  .nav-links li a {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1rem;
   }
   .nav-links.open {
     display: flex;
@@ -534,6 +583,8 @@ body {
     padding: 10px 18px;
     font-size: 1rem;
     border-radius: 18px;
+    order: 2;
+    margin-left: auto;
   }
 }
 
@@ -541,10 +592,19 @@ body {
   .floating-nav {
     min-height: 48px;
     padding: 0 2px;
+    top: 5px;
+    width: calc(100% - 4px);
+  }
+  .nav-logo {
+    width: 150px;
+    height: 40px;
   }
   .register-btn {
     padding: 8px 10px;
     font-size: 0.98rem;
+  }
+  .nav-links {
+    top: 58px;
   }
 }
 
