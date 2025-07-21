@@ -89,7 +89,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const form = document.getElementById('registrationForm');
   if (form) {
     form.addEventListener('submit', function(e) {
-      e.preventDefault();
       let valid = true;
       // Clear previous errors
       form.querySelectorAll('.error-msg').forEach(el => el.remove());
@@ -170,14 +169,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
 
-      // If valid, show success message
-      if (valid) {
-        form.reset();
-        document.getElementById('formSuccess').style.display = 'block';
-        setTimeout(() => {
-          document.getElementById('formSuccess').style.display = 'none';
-        }, 7000);
+      // If not valid, prevent submission
+      if (!valid) {
+        e.preventDefault();
       }
+      // If valid, do nothing (allow default submission to Basin)
     });
 
     // Limit workshop selection to 2
