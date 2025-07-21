@@ -18,13 +18,13 @@
   <!-- Animated Background Icons -->
   <div class="floating-icons-background" id="floatingIcons">
     <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 0s; --duration: 20s; --direction: 1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 1s; --duration: 21s; --direction: -1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 2s; --duration: 22s; --direction: 1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 3s; --duration: 23s; --direction: -1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 4s; --duration: 24s; --direction: 1;">
     <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 5s; --duration: 25s; --direction: -1;">
-    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 10s; --duration: 30s; --direction: 1;">
-    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 15s; --duration: 22s; --direction: -1;">
-    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 3s; --duration: 28s; --direction: 1;">
-    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 8s; --duration: 35s; --direction: -1;">
-    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 12s; --duration: 18s; --direction: 1;">
-    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 7s; --duration: 32s; --direction: -1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 6s; --duration: 26s; --direction: 1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 7s; --duration: 27s; --direction: -1;">
   </div>
 
   <!-- Floating Navigation Bar -->
@@ -74,6 +74,8 @@
           <a href="https://eui.edu.eg/" target="_blank">
             <img src="assets/eui_logo.png" alt="EUI Logo" class="partner-logo">
           </a>
+          <span class="logo-separator">\</span>
+          <img src="assets/GDG.png" alt="GDG Logo" class="partner-logo gdg-logo">
         </div>
       </div>
       
@@ -85,7 +87,7 @@
             <line x1="8" y1="2" x2="8" y2="6"></line>
             <line x1="3" y1="10" x2="21" y2="10"></line>
           </svg>
-          <span class="detail-text">May 10th, 2025</span>
+          <span class="detail-text">August 9th, 2025</span>
         </div>
         <div class="event-detail">
           <svg class="detail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -95,6 +97,7 @@
           <a href="https://maps.app.goo.gl/bfNUGM9Q7YXoDKPQ8" target="_blank" class="detail-text location-link">Egypt University of Informatics (EUI)</a>
         </div>
       </div>
+      <div class="hero-powered-by"> Powered by ASME Cairo University & GDG EUI in strategic partnership with EUI</div>
       
       <div class="hero-buttons">
         <a href="#register" class="cta-button">Register Now</a>
@@ -104,104 +107,113 @@
 
   <!-- About Section -->
   <section id="about" class="about-section">
-    <h2>About the Event</h2>
-    <p>MAIN Segment 2025 is Egypt's premier mechanical engineering career experience, designed to connect passionate students with the future of industry, automation, and sustainable technology.</p>
+    <h2 class="about-headline">About the Event</h2>
+    <p class="about-description">MAIN Segment 2025 is a one-day multidisciplinary experience designed to connect mechanical engineering fundamentals with the rising power of AI and Data Science. Whether you're a student, graduate, or professional, this event opens a new dimension of tech-driven innovation and career potential.</p>
   </section>
 
   <!-- Mechanical-Focused Workshops Section -->
   <section id="workshops" class="workshops-section">
     <div class="container">
       <h2 class="section-title">Mechanical-Focused Workshops</h2>
-      <p class="section-subtitle">Explore nine specialized workshops designed to enhance your mechanical engineering skills</p>
-      
+      <p class="section-subtitle">Explore tutorial-based sessions designed to enhance your mechanical engineering skills. All you need is a laptop!</p>
       <div class="workshops-grid">
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
-            <h3 class="workshop-title">Six Sigma / Lean Production</h3>
+            <h3 class="workshop-title">Six Sigma, Lean Production</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>An introduction to methodologies that boost manufacturing and service efficiency by eliminating waste, reducing variation, and improving quality. Covers Lean principles and the Six Sigma DMAIC process.</p>
+            <p>Learn how data-driven methods and Lean principles are used to improve quality, reduce waste, and boost efficiency in production and engineering processes. Ideal for anyone looking to enhance operational excellence.</p>
           </div>
         </div>
-
+        <div class="workshop-item">
+          <div class="workshop-header" onclick="toggleWorkshop(this)">
+            <h3 class="workshop-title">Project Management</h3>
+            <span class="expand-icon">+</span>
+          </div>
+          <div class="workshop-content">
+            <p>An introduction to project management strategies and tools designed for engineering projects. Topics include planning, scheduling, risk assessment, and effective resource management.</p>
+          </div>
+        </div>
+        <div class="workshop-item">
+          <div class="workshop-header" onclick="toggleWorkshop(this)">
+            <h3 class="workshop-title">Robotics</h3>
+            <span class="expand-icon">+</span>
+          </div>
+          <div class="workshop-content">
+            <p>Explore the fundamentals of robotics theory through guided tutorials. Covers robot design, control systems, and automation basics—no extra materials required.</p>
+          </div>
+        </div>
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
             <h3 class="workshop-title">CFD with ANSYS Fluent</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>A practical overview of Computational Fluid Dynamics (CFD) using ANSYS Fluent. Learn how engineers simulate fluid flow and heat transfer, and how to interpret simulation results in engineering analysis.</p>
+            <p>Tutorials on Computational Fluid Dynamics (CFD) using ANSYS Fluent to simulate and analyze fluid flow and thermal behavior in engineering systems, all within a software environment.</p>
           </div>
         </div>
-
+        <div class="workshop-item">
+          <div class="workshop-header" onclick="toggleWorkshop(this)">
+            <h3 class="workshop-title">How to Prepare for the Interviews</h3>
+            <span class="expand-icon">+</span>
+          </div>
+          <div class="workshop-content">
+            <p>Practical advice and walkthroughs for crafting a strong resume, acing engineering interviews, handling technical and behavioral questions, and presenting yourself optimally for career opportunities.</p>
+          </div>
+        </div>
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
             <h3 class="workshop-title">BIM for Mechanical Engineers</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>An introduction to Building Information Modeling (BIM) for mechanical engineers. Covers 3D design workflows, BIM tools, and how mechanical components are integrated into modern building projects.</p>
+            <p>Learn the essentials of Building Information Modeling (BIM) software as applied to mechanical systems in construction projects, focusing on collaborative workflows and digital 3D modeling.</p>
           </div>
         </div>
-
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
             <h3 class="workshop-title">Supply Chain Basics</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>A foundational session on logistics, procurement, inventory control, and how engineers contribute to building resilient and efficient supply chains across industries.</p>
+            <p>An overview of supply chain management, including logistics, procurement, inventory control, and optimization techniques relevant to engineering. Sessions focus on practical concepts and real-world scenarios.</p>
           </div>
         </div>
-
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
             <h3 class="workshop-title">Fusion 360 for 3D Printing</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>Learn the basics of Autodesk Fusion 360 for modeling and preparing designs for 3D printing. Includes parametric design, best practices, and exporting print-ready models.</p>
+            <p>Guided lessons on using Autodesk Fusion 360 for 3D modeling and preparing designs for additive manufacturing. Emphasizes best digital practices, without any hands-on printing.</p>
           </div>
         </div>
-
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
             <h3 class="workshop-title">AI in Engineering</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>Explore how artificial intelligence is revolutionizing engineering with topics like AI-driven design, simulation, generative design, and smart systems in manufacturing.</p>
+            <p>Introduction to artificial intelligence applications in mechanical engineering, such as predictive maintenance, optimization, and smart automation. Focused on conceptual understanding and digital tools.</p>
           </div>
         </div>
-
-        <div class="workshop-item">
-          <div class="workshop-header" onclick="toggleWorkshop(this)">
-            <h3 class="workshop-title">Renewable Energy</h3>
-            <span class="expand-icon">+</span>
-          </div>
-          <div class="workshop-content">
-            <p>An overview of renewable energy technologies, including solar, wind, and thermal energy systems. Covers how mechanical engineers design, analyze, and implement sustainable energy solutions.</p>
-          </div>
-        </div>
-
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
             <h3 class="workshop-title">Simulations with MATLAB</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>Learn how MATLAB and Simulink are used to simulate mechanical systems, analyze data, and run controlled simulations in academic and industrial applications.</p>
+            <p>Guided tutorials on the use of MATLAB for simulating mechanical systems and analyzing engineering data with algorithms and visualization tools.</p>
           </div>
         </div>
-
         <div class="workshop-item">
           <div class="workshop-header" onclick="toggleWorkshop(this)">
-            <h3 class="workshop-title">Automotive, Robotics, and R&D</h3>
+            <h3 class="workshop-title">R&D (Research & Development)</h3>
             <span class="expand-icon">+</span>
           </div>
           <div class="workshop-content">
-            <p>A combined session offering insights into automotive innovation, robotics fundamentals, and the role of R&D in driving engineering breakthroughs, from prototyping to real-world deployment.</p>
+            <p>An overview of digital R&D processes in engineering, focusing on innovative problem-solving, conceptual prototyping, and evaluation using readily available software.</p>
           </div>
         </div>
       </div>
@@ -257,10 +269,65 @@
     </ul>
   </section>
 
+  <!-- Ticket Section -->
+  <section id="tickets" class="tickets-section">
+    <h2 class="tickets-headline">🎫 Choose Your MAIN Experience</h2>
+    <p class="tickets-subheadline">Whether you're here to learn, network, or land your next opportunity – we've got the ticket for you!</p>
+    <div class="tickets-divider"></div>
+    <div class="ticket-cards-container">
+      <div class="ticket-card standard">
+        <div class="ticket-type">
+          <span class="ticket-icon">🔹</span>
+          <span class="ticket-title">Standard</span>
+        </div>
+        <div class="ticket-price">100 EGP</div>
+        <ul class="ticket-features">
+          <li>Entry to all Talks & Panels</li>
+          <li>Access to the Career Fair</li>
+          <li>Admission to 2 Workshops</li>
+        </ul>
+      </div>
+      <div class="ticket-card premium">
+        <div class="ticket-type">
+          <span class="ticket-icon">🔸</span>
+          <span class="ticket-title">Premium</span>
+        </div>
+        <div class="ticket-price">200 EGP</div>
+        <ul class="ticket-features">
+          <li>All benefits of General Access</li>
+          <li>Entry to all Talks & Panels</li>
+          <li>Access to the Career Fair</li>
+          <li>Admission to 2 Workshops</li>
+          <li>Workshop Materials</li>
+          <li>Mock up interviews</li>
+          <li>CV reviewing</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tickets-divider"></div>
+    <div class="tickets-cta-container">
+      <p class="tickets-cta">⚡ Reserve your seat now before it's sold out!</p>
+      <a href="#register" class="tickets-register-btn">Register & Buy Ticket</a>
+    </div>
+    <div class="tickets-divider"></div>
+    <div class="tickets-note">
+      <p>Payment methods & instructions will be sent after completing the registration form.</p>
+      <p>For any questions, contact us via email or social media.</p>
+    </div>
+  </section>
+
   <!-- Registration Section -->
   <section id="register" class="register-section">
     <h2>Register Now</h2>
-    <form id="registrationForm" enctype="multipart/form-data" novalidate>
+    <form 
+  id="registrationForm"
+  action="https://formsubmit.co/zacharymiller522@gmail.com" 
+  method="POST" 
+  enctype="multipart/form-data" 
+  novalidate>
+      <input type="hidden" name="_next" value="https://mainsegment.com/thank-you.html">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Registration – MAIN Segment 2025">
       <div class="form-group">
         <label for="fullName">Full Name<span class="required">*</span></label>
         <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
@@ -303,19 +370,17 @@
       <div class="form-group">
         <label>Preferred Workshop (Choose two):<span class="required">*</span></label>
         <div class="checkbox-group" id="workshopGroup">
-          <label><input type="checkbox" name="workshops" value="CFD"> CFD</label>
-          <label><input type="checkbox" name="workshops" value="BIM"> BIM</label>
-          <label><input type="checkbox" name="workshops" value="Fusion 360"> Fusion 360</label>
-          <label><input type="checkbox" name="workshops" value="MATLAB"> MATLAB</label>
-          <label><input type="checkbox" name="workshops" value="Six Sigma/Lean Production/Supply Chain Basics"> Six Sigma/Lean Production/Supply Chain Basics</label>
+          <label><input type="checkbox" name="workshops" value="Six Sigma, Lean Production"> Six Sigma, Lean Production</label>
           <label><input type="checkbox" name="workshops" value="Project Management"> Project Management</label>
+          <label><input type="checkbox" name="workshops" value="Robotics"> Robotics</label>
+          <label><input type="checkbox" name="workshops" value="CFD with ANSYS Fluent"> CFD with ANSYS Fluent</label>
+          <label><input type="checkbox" name="workshops" value="How to Prepare for the Interviews"> How to Prepare for the Interviews</label>
+          <label><input type="checkbox" name="workshops" value="BIM for Mechanical Engineers"> BIM for Mechanical Engineers</label>
+          <label><input type="checkbox" name="workshops" value="Supply Chain Basics"> Supply Chain Basics</label>
+          <label><input type="checkbox" name="workshops" value="Fusion 360 for 3D Printing"> Fusion 360 for 3D Printing</label>
           <label><input type="checkbox" name="workshops" value="AI in Engineering"> AI in Engineering</label>
-          <label><input type="checkbox" name="workshops" value="Sustainability & Renewable Energy"> Sustainability & Renewable Energy</label>
-          <label><input type="checkbox" name="workshops" value="R&D (Coding Included)"> R&D (Coding Included)</label>
-          <label><input type="checkbox" name="workshops" value="Entrepreneurship & Freelancing"> Entrepreneurship & Freelancing</label>
-          <label><input type="checkbox" name="workshops" value="Automotive & Robotics"> Automotive & Robotics</label>
-          <label><input type="checkbox" name="workshops" value="Soft Skills"> Soft Skills</label>
-          <label><input type="checkbox" name="workshops" value="Mental Health"> Mental Health</label>
+          <label><input type="checkbox" name="workshops" value="Simulations with MATLAB"> Simulations with MATLAB</label>
+          <label><input type="checkbox" name="workshops" value="R&D (Research & Development)"> R&D (Research & Development)</label>
         </div>
         <div class="workshop-note">*Please select exactly 2 workshops.</div>
       </div>
