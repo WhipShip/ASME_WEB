@@ -354,9 +354,40 @@
   <!-- Registration Section -->
   <section id="register" class="register-section">
     <h2>Register Now</h2>
-    <div class="form-iframe-container">
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPA6ogZ1N5xf_VOV0zLqax2DvX61I4uGH1AUQ8r9JWNUw60A/viewform?embedded=true" width="100%" height="2195" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
+    <form id="registrationForm" action="https://formsubmit.co/mzshabouri@gmail.com" method="POST" enctype="multipart/form-data" novalidate>
+      <input type="hidden" name="_next" value="thank-you.html">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New Registration – MAIN Segment 2025">
+      <div class="form-group">
+        <label for="fullName">Full Name<span class="required">*</span></label>
+        <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address<span class="required">*</span></label>
+        <input type="email" id="email" name="email" required placeholder="e.g. you@email.com">
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number<span class="required">*</span></label>
+        <input type="tel" id="phone" name="phone" required placeholder="e.g. +20 100 000 0000">
+      </div>
+      <div class="form-group">
+        <label for="major">Major<span class="required">*</span></label>
+        <input type="text" id="major" name="major" required placeholder="e.g. Mechanical Engineering">
+      </div>
+      <div class="form-group">
+        <label for="gradYear">Graduation Year<span class="required">*</span></label>
+        <input type="number" id="gradYear" name="gradYear" required min="2024" max="2100" placeholder="e.g. 2025">
+      </div>
+      <div class="form-group">
+        <label for="university">University (optional)</label>
+        <input type="text" id="university" name="university" placeholder="Your university">
+      </div>
+      <div class="form-group">
+        <label for="linkedin">LinkedIn Profile (optional)</label>
+        <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/yourprofile">
+      </div>
+      <button type="submit" class="submit-btn">Register</button>
+    </form>
   </section>
 
   <!-- Contact Section -->
