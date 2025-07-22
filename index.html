@@ -75,7 +75,9 @@
             <img src="assets/eui_logo.png" alt="EUI Logo" class="partner-logo">
           </a>
           <span class="logo-separator">\</span>
-          <img src="assets/GDG.png" alt="GDG Logo" class="partner-logo gdg-logo">
+          <a href="https://gdg.community.dev/gdg-on-campus-egypt-university-of-informatics-cairo-egypt/" target="_blank">
+            <img src="assets/GDG.png" alt="GDG Logo" class="partner-logo gdg-logo">
+          </a>
         </div>
       </div>
       
@@ -106,10 +108,18 @@
   </section>
 
   <!-- About Section -->
+   
   <section id="about" class="about-section">
-    <h2 class="about-headline">About the Event</h2>
-    <p class="about-description">MAIN Segment 2025 is a one-day multidisciplinary experience designed to connect mechanical engineering fundamentals with the rising power of AI and Data Science. Whether you're a student, graduate, or professional, this event opens a new dimension of tech-driven innovation and career potential.</p>
+    <h2 class="about-title">About the Event</h2>
+    <p class="about-subtitle">A one-day multidisciplinary experience connecting mechanical engineering with the power of AI and Data Science.</p>
+    <div class="about-container">
+      <p class="about-description">MAIN Segment 2025 is a one-day multidisciplinary experience designed to connect mechanical engineering fundamentals with the rising power of AI and Data Science. Whether you're a student, graduate, or professional, this event opens a new dimension of tech-driven innovation and career potential.</p>
+    </div>
   </section>
+  
+  
+  
+
 
   <!-- Mechanical-Focused Workshops Section -->
   <section id="workshops" class="workshops-section">
@@ -220,43 +230,48 @@
     </div>
   </section>
 
-  <!-- Event Highlights Section -->
-  <section id="highlights" class="highlights-section">
-    <h2>Event Highlights</h2>
-    <div class="highlights-grid">
-      <div class="highlight-item">
-        <div class="highlight-content reverse">
-          <div class="highlight-text">
-            <h3>Industry-Relevant Sessions</h3>
-            <ul>
-              <li>Panels on Smart Manufacturing</li>
-              <li>Industrial Automation</li>
-              <li>Sustainability and Business Intelligence</li>
-              <li>Led by mechanical engineers in automotive, energy, and tech</li>
-            </ul>
-          </div>
-          <div class="highlight-image-container">
-            <img src="assets/panel.png" alt="Industry Sessions" class="highlight-image">
-          </div>
-        </div>
+  <!-- Main Activities Section -->
+  <section id="highlights" class="highlights-section activities-section">
+    <h2 class="activities-headline">Main Activities</h2>
+    <div class="activities-grid">
+      <div class="activity-card">
+        <div class="pillar-icon">🧠</div>
+        <h3 class="pillar-title">Panels</h3>
+        <p class="pillar-desc">Dynamic discussions between experts from academia and industry on the future of AI-powered engineering.</p>
       </div>
-      <div class="highlight-item">
-        <div class="highlight-content">
-          <div class="highlight-image-container">
-            <img src="assets/career.png" alt="Career Development" class="highlight-image">
-          </div>
-          <div class="highlight-text">
-            <h3>Career Development</h3>
-            <ul>
-              <li>CV &amp; LinkedIn Review</li>
-              <li>Mentorship with mechanical professionals</li>
-              <li>Mock interviews with recruiters from top companies</li>
-              <li>Engineering-focused career fair with real hiring booths</li>
-            </ul>
-          </div>
-        </div>
+      <div class="activity-card">
+        <div class="pillar-icon">🎤</div>
+        <h3 class="pillar-title">Talks</h3>
+        <p class="pillar-desc">Hear from leading voices shaping the future of smart manufacturing, robotics, machine learning, and beyond.</p>
+      </div>
+      <div class="activity-card">
+        <div class="pillar-icon">🛠</div>
+        <h3 class="pillar-title">Workshops</h3>
+        <p class="pillar-desc">Hands-on technical sessions in machine learning for engineers, computational modeling, data-driven simulations, and more.</p>
+      </div>
+      <div class="activity-card">
+        <div class="pillar-icon">💼</div>
+        <h3 class="pillar-title">Career Fair</h3>
+        <p class="pillar-desc">Meet Egypt’s top tech and engineering companies. Explore job opportunities, internships, and scholarships.</p>
+      </div>
+      <div class="activity-card">
+        <div class="pillar-icon">📋</div>
+        <h3 class="pillar-title">Career Coaching & CV Reviewing</h3>
+        <p class="pillar-desc">One-on-one sessions to polish your CV, get LinkedIn tips, and receive real feedback from HR professionals.</p>
       </div>
     </div>
+  </section>
+
+  <!-- Why Attend Section -->
+  <section id="why-attend" class="why-attend-section">
+    <h2 class="why-attend-title">Why Attend?</h2>
+    <ul class="why-attend-list">
+      <li>Discover how AI is transforming the mechanical field</li>
+      <li>Network with industry experts and top recruiters</li>
+      <li>Gain hands-on skills in real-world technologies</li>
+      <li>Advance your career with guidance and exposure</li>
+      <li>Be part of the first-of-its-kind collaboration between mechanical and digital minds</li>
+    </ul>
   </section>
 
   <!-- Event Guide Section -->
@@ -319,81 +334,9 @@
   <!-- Registration Section -->
   <section id="register" class="register-section">
     <h2>Register Now</h2>
-    <form 
-  id="registrationForm"
-  action="https://formsubmit.co/zacharymiller522@gmail.com" 
-  method="POST" yes
-  enctype="multipart/form-data" 
-  novalidate>
-      <input type="hidden" name="_next" value="./thank-you.html">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_subject" value="New Registration – MAIN Segment 2025">
-      <div class="form-group">
-        <label for="fullName">Full Name<span class="required">*</span></label>
-        <input type="text" id="fullName" name="fullName" required placeholder="Your full name">
-      </div>
-      <div class="form-group">
-        <label for="major">Major<span class="required">*</span></label>
-        <input type="text" id="major" name="major" required placeholder="e.g. Mechanical Engineering">
-      </div>
-      <div class="form-group">
-        <label for="gradYear">Graduation Year<span class="required">*</span></label>
-        <input type="number" id="gradYear" name="gradYear" required min="2024" max="2100" placeholder="e.g. 2025">
-      </div>
-      <div class="form-group">
-        <label for="phone">Phone Number<span class="required">*</span></label>
-        <input type="tel" id="phone" name="phone" required placeholder="e.g. +20 100 000 0000">
-      </div>
-      <div class="form-group">
-        <label for="email">Email Address<span class="required">*</span></label>
-        <input type="email" id="email" name="email" required placeholder="e.g. you@email.com">
-      </div>
-      <div class="form-group">
-        <label>Are you a mechanical/mechatronics engineering student?<span class="required">*</span></label>
-        <div class="radio-group">
-          <label><input type="radio" name="isMech" value="yes" required> Yes</label>
-          <label><input type="radio" name="isMech" value="no" required> No</label>
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="university">University (optional)</label>
-        <input type="text" id="university" name="university" placeholder="Your university">
-      </div>
-      <div class="form-group">
-        <label for="cv">CV/Resume (optional)</label>
-        <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
-      </div>
-      <div class="form-group">
-        <label for="linkedin">LinkedIn Profile (optional)</label>
-        <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/in/yourprofile">
-      </div>
-      <div class="form-group">
-        <label>Preferred Workshop (Choose two):<span class="required">*</span></label>
-        <div class="checkbox-group" id="workshopGroup">
-          <label><input type="checkbox" name="workshops" value="Six Sigma, Lean Production"> Six Sigma, Lean Production</label>
-          <label><input type="checkbox" name="workshops" value="Project Management"> Project Management</label>
-          <label><input type="checkbox" name="workshops" value="Robotics"> Robotics</label>
-          <label><input type="checkbox" name="workshops" value="CFD with ANSYS Fluent"> CFD with ANSYS Fluent</label>
-          <label><input type="checkbox" name="workshops" value="How to Prepare for the Interviews"> How to Prepare for the Interviews</label>
-          <label><input type="checkbox" name="workshops" value="BIM for Mechanical Engineers"> BIM for Mechanical Engineers</label>
-          <label><input type="checkbox" name="workshops" value="Supply Chain Basics"> Supply Chain Basics</label>
-          <label><input type="checkbox" name="workshops" value="Fusion 360 for 3D Printing"> Fusion 360 for 3D Printing</label>
-          <label><input type="checkbox" name="workshops" value="AI in Engineering"> AI in Engineering</label>
-          <label><input type="checkbox" name="workshops" value="Simulations with MATLAB"> Simulations with MATLAB</label>
-          <label><input type="checkbox" name="workshops" value="R&D (Research & Development)"> R&D (Research & Development)</label>
-        </div>
-        <div class="workshop-note">*Please select exactly 2 workshops.</div>
-      </div>
-      <div class="form-group">
-        <label>Ticket Type<span class="required">*</span></label>
-        <div class="radio-group">
-          <label><input type="radio" name="ticketType" value="Normal" required> 🎟 Normal – EGP 50 <span class="promo">50% offer</span></label>
-          <label><input type="radio" name="ticketType" value="Premium" required> 🎟 Premium – EGP 100 <span class="promo">50% offer</span></label>
-        </div>
-      </div>
-      <button type="submit" class="submit-btn">⚙ Join the Mechanical Movement</button>
-      <div id="formSuccess" class="form-success" style="display:none;">Thank you for registering! We have received your submission.</div>
-    </form>
+    <div class="form-iframe-container">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdPA6ogZ1N5xf_VOV0zLqax2DvX61I4uGH1AUQ8r9JWNUw60A/viewform?embedded=true" width="100%" height="2195" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
   </section>
 
   <!-- Contact Section -->
@@ -402,7 +345,7 @@
     <div class="contact-details">
       <p><strong>Name:</strong> Mohamed Ezzelregal</p>
       <p><strong>Email:</strong> <a href="mailto:mainsegment@asme-cairo.org">mainsegment@asme-cairo.org</a></p>
-      <p><strong>Phone:</strong> <a href="tel:+201000000000">+20 100 000 0000</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+20 100 159 5534">+20 100 159 5534</a></p>
       <p><strong>Social Media:</strong> <a href="https://linktr.ee/ASMECU" target="_blank" class="social-link">https://linktr.ee/ASMECU</a></p>
     </div>
   </section>
