@@ -1749,3 +1749,12 @@ input.error, .form-group.error input, .form-group.error select {
     font-size: 1.2em;
   }
 }
+
+.ticket-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.ticket-card-link:active, .ticket-card-link:focus {
+  outline: none;
+}
