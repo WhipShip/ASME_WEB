@@ -66,8 +66,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function updateLogo() {
     const scrollPosition = window.scrollY;
-    const threshold = 650; // Change logo after scrolling 700px
-    
+    // Lower threshold for mobile
+    let threshold = 650;
+    if (window.innerWidth <= 700) {
+      threshold = 120;
+    }
     if (scrollPosition > threshold) {
       // Scrolled down - show regular logo
       logoDefault.style.display = 'none';
