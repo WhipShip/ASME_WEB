@@ -1,3 +1,8 @@
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
 :root {
   --primary-dark: #181660;
   --background-light: #F9FAFB;
@@ -1002,6 +1007,24 @@ input.error, .form-group.error input, .form-group.error select {
   }
 }
 
+@media (max-width: 700px) {
+  .tickets-section {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  .ticket-card {
+    max-width: 100vw;
+    min-width: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 1200px) {
   .hero-title {
@@ -1625,5 +1648,104 @@ input.error, .form-group.error input, .form-group.error select {
   .form-iframe-container iframe {
     max-width: 100%;
     min-width: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-powered-by {
+    display: none !important;
+  }
+  .hero-logos-desktop {
+    display: none !important;
+  }
+  .hero-logos-mobile {
+    display: block !important;
+    width: 100%;
+  }
+  .hero-logo-row-asme {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -1rem;
+  }
+  .hero-logo-row-partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100%;
+    margin: -1rem -1rem -1rem -0.5rem;
+  }
+  .hero-logo-row-partners .partner-logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+  }
+  .hero-logo-row-partners .gdg-logo {
+    width: 220px;
+  }
+  .hero-logo-row-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1rem 0 0.2rem 0;
+  }
+  /* Remove color override for .logo-separator so it matches desktop */
+  .hero-logo-row-x .logo-separator {
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 1;
+    color: var(--background-light);
+    line-height: 1;
+  }
+}
+@media (min-width: 701px) {
+  .hero-logos-mobile {
+    display: none !important;
+  }
+  .hero-logos-desktop {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero-section {
+    padding-top: 140px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .guide-section {
+    display: none !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .why-attend-section {
+    padding: 24px 6px;
+  }
+  .why-attend-title {
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+  }
+  .why-attend-list {
+    font-size: 1.08rem;
+    line-height: 1.2;
+    padding-left: 10px;
+    margin-left: 0;
+  }
+  .why-attend-list li {
+    margin-bottom: 18px;
+    padding-left: 0;
+    color: #222b45;
+    font-weight: 500;
+    background: none;
+    list-style-type: disc;
+  }
+  .why-attend-list li::marker {
+    color: var(--success-accent);
+    font-size: 1.2em;
   }
 }
