@@ -1755,3 +1755,16 @@ input.error, .form-group.error input, .form-group.error select {
 .ticket-card-link:active, .ticket-card-link:focus {
   outline: none;
 }
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.new-price {
+  color: var(--error-cta);
+  font-size: 2rem;
+  font-weight: 800;
+}
