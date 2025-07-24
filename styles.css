@@ -934,9 +934,6 @@ input.error, .form-group.error input, .form-group.error select {
 .ticket-card.standard {
   border-left: 6px solid var(--primary-dark);
 }
-.ticket-card.premium {
-  border-left: 6px solid var(--success-accent);
-}
 .tickets-cta-container {
   display: flex;
   flex-direction: column;
