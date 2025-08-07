@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function() {
         location: 'Prof. Reem Bahgat Hall (Main Stage)'
       }
     },
-    'Ahmed Yasser': {
+    'Mohamed Yasser': {
       initial: 'A',
       image: 'Speakers/Ahmed_Yasser.png',
       title: 'President of ASME Cairo University',
