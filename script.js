@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Dr. Mohamed Ismail': {
       initial: 'M',
       image: 'Speakers/Mohamed_Ismael.png',
-      title: 'Lecturer at EUI, Faculty of Engineering',
+      title: 'Associate professor and coordinator of student activities @ EUI',
       session: {
         title: 'EUI x ASME CU Opening Talk',
         date: 'August 9, 2025',
@@ -431,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Ahmed Taha': {
       initial: 'A',
       image: 'Speakers/Ahmed_Taha.jpg',
-      title: 'Software team lead @ nfrtix',
+      title: 'TA @ EUI, Software team lead @ nfrtix',
       session: {
         title: 'Smart Technologies, Smart Future with AI',
         date: 'August 9, 2025',
