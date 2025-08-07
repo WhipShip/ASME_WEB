@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agenda - MAIN Segment 2025</title>
+  <link rel="icon" type="image/png" href="assets/icon2.png">
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "sh614fwxjl");
+  </script>
+</head>
+<body>
+  <!-- Animated Background Icons -->
+  <div class="floating-icons-background" id="floatingIcons">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 0s; --duration: 20s; --direction: 1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 1s; --duration: 21s; --direction: -1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 2s; --duration: 22s; --direction: 1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 3s; --duration: 23s; --direction: -1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 4s; --duration: 24s; --direction: 1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 5s; --duration: 25s; --direction: -1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 6s; --duration: 26s; --direction: 1;">
+    <img src="assets/icon.png" alt="" class="floating-icon" style="--delay: 7s; --duration: 27s; --direction: -1;">
+  </div>
+
+  <!-- Floating Navigation Bar -->
+  <nav class="floating-nav" id="mainNav">
+    <div class="nav-logo" id="logo-placeholder">
+      <img src="assets/top_left_logoW.png" alt="MAIN Segment Logo" class="logo-image" id="logo-default">
+      <img src="assets/top_left_logo.png" alt="MAIN Segment Logo" class="logo-image" id="logo-scrolled" style="display: none;">
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="speakers.html">Speakers</a></li>
+      <li><a href="agenda.html">Agenda</a></li>
+      <li><a href="index.html#workshops">Workshops</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu-btn" id="mobileMenuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+    <div class="mobile-menu-content">
+      <div class="mobile-menu-header">
+        <div class="mobile-menu-logo">
+          <img src="assets/top_left_logoW.png" alt="MAIN Segment Logo" class="logo-image">
+        </div>
+        <button class="mobile-menu-close" id="mobileMenuClose">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="index.html#about" class="mobile-nav-link">About</a></li>
+        <li><a href="speakers.html" class="mobile-nav-link">Speakers</a></li>
+        <li><a href="agenda.html" class="mobile-nav-link active">Agenda</a></li>
+        <li><a href="index.html#workshops" class="mobile-nav-link">Workshops</a></li>
+        <li><a href="index.html#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <!-- Agenda Header Section -->
+    <section class="agenda-header-section">
+      <div class="agenda-header-banner">
+        <h1 class="agenda-title">EVENT AGENDA</h1>
+        <p class="agenda-subtitle">August 9, 2025 - MAIN Segment 2025 Schedule</p>
+        <button class="print-agenda-btn" onclick="printAgenda()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6,9 6,2 18,2 18,9"></polyline>
+            <path d="M6,18H4a2,2 0 0,1 -2,-2V11a2,2 0 0,1 2,-2H20a2,2 0 0,1 2,2v5a2,2 0 0,1 -2,2H18"></path>
+            <polyline points="6,14 6,18 18,18 18,14"></polyline>
+            <circle cx="12" cy="14" r="1"></circle>
+          </svg>
+          PRINT AGENDA
+        </button>
+      </div>
+    </section>
+
+    <!-- Session Type Navigation -->
+    <section class="session-type-navigation">
+      <div class="session-type-buttons">
+        <button class="session-type-btn active" data-type="all">All Sessions</button>
+        <button class="session-type-btn" data-type="panel">Panel Discussions</button>
+        <button class="session-type-btn" data-type="talks">Talks</button>
+        <button class="session-type-btn" data-type="workshops">Workshops</button>
+        <button class="session-type-btn" data-type="mentorship">Mentorship Circles</button>
+      </div>
+    </section>
+
+    <!-- Agenda Content Section -->
+    <section class="agenda-content-section">
+      <h2 class="agenda-content-title">MAIN Segment 2025 Schedule</h2>
+      
+      <!-- Panel Discussions -->
+      <div class="session-type-section" id="panel-discussions">
+        <h3 class="session-type-title">Panel Discussions</h3>
+        <div class="agenda-grid">
+          <div class="agenda-venue">
+            <h4 class="venue-title">Prof. Reem Bahgat Hall (Main Stage)</h4>
+            <div class="venue-sessions">
+              <div class="session-card" data-type="panel">
+                <div class="session-time">09:45 - 10:30</div>
+                <div class="session-content">
+                  <h4 class="session-title">EUI x ASME CU Opening Talk</h4>
+                  <p class="session-speaker">Dr. Mohamed Ismail & ASME's President</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="panel">
+                <div class="session-time">11:15 - 12:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">Supply Chain: Transforming Industry with Innovative Solutions</h4>
+                  <p class="session-speaker">Dr. Shereen, Mohamed Mostafa, Amr Moheb, Mohamed Foad, Ahmed Abdelazeem (Moderator)</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="panel">
+                <div class="session-time">12:30 - 1:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">The Power of BIM</h4>
+                  <p class="session-speaker">Mohamed Fawzy, Ahmed Negmeidien, Kamal Shawky, Mohamed Salah (Moderator)</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="panel">
+                <div class="session-time">1:45 - 2:30</div>
+                <div class="session-content">
+                  <h4 class="session-title">Real Career Journeys</h4>
+                  <p class="session-speaker">Adel Samir, Ramy Saleh, Ahmed Abdelazeem (Moderator)</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="panel">
+                <div class="session-time">3:00 - 3:45</div>
+                <div class="session-content">
+                  <h4 class="session-title">Think Like an Entrepreneur</h4>
+                  <p class="session-speaker">Adie Hatem & Ahmed Hatem</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="panel">
+                <div class="session-time">4:00 - 4:30</div>
+                <div class="session-content">
+                  <h4 class="session-title">Stand Out & Get Hired: Your CV, Your Brand</h4>
+                  <p class="session-speaker">Ahmed Nagy, Ahmed Abdelazeem (Moderator)</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="panel">
+                <div class="session-time">4:45 - 5:30</div>
+                <div class="session-content">
+                  <h4 class="session-title">Smart Technologies, Smart Future with AI</h4>
+                  <p class="session-speaker">Mohmed Abdelmoniem (aix), Ahmed Adel, Ahmed Taha, Khoulod (Moderator)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Talks -->
+      <div class="session-type-section" id="talks">
+        <h3 class="session-type-title">Talks</h3>
+        <div class="agenda-grid">
+          <div class="agenda-venue">
+            <h4 class="venue-title">Room 218 (Lecture Hall 1)</h4>
+            <div class="venue-sessions">
+              <div class="session-card" data-type="talks">
+                <div class="session-time">11:00 - 11:45</div>
+                <div class="session-content">
+                  <h4 class="session-title">Sustainability</h4>
+                  <p class="session-speaker">Ahmed Hamed</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="talks">
+                <div class="session-time">12:15 - 1:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">Industry 4.0 + Competition</h4>
+                  <p class="session-speaker">Mostafa Hassan</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="talks">
+                <div class="session-time">1:30 - 2:30</div>
+                <div class="session-content">
+                  <h4 class="session-title">Supply Chain Digital Transformation</h4>
+                  <p class="session-speaker">Mohamed Lotfy</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="talks">
+                <div class="session-time">2:45 - 3:45</div>
+                <div class="session-content">
+                  <h4 class="session-title">Reverse Engineering and Design using SolidWorks + Competition</h4>
+                  <p class="session-speaker">Ahmed Abdelnasser & Mohannad Alzhairy</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="talks">
+                <div class="session-time">4:00 - 5:00</div>
+                <div class="session-content">
+                  <h4 class="session-title">Business</h4>
+                  <p class="session-speaker">Amir Massoud</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Workshops -->
+      <div class="session-type-section" id="workshops">
+        <h3 class="session-type-title">Workshops</h3>
+        <div class="agenda-grid">
+          <div class="agenda-venue">
+            <h4 class="venue-title">Room 241 (Tutorial Room 1)</h4>
+            <div class="venue-sessions">
+              <div class="session-card" data-type="workshops">
+                <div class="session-time">12:15 - 1:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">Oring</h4>
+                  <p class="session-speaker">Hossam Hazem</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="workshops">
+                <div class="session-time">2:45 - 3:45</div>
+                <div class="session-content">
+                  <h4 class="session-title">Planning</h4>
+                  <p class="session-speaker">Sherif Karam</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="workshops">
+                <div class="session-time">3:15 - 4:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">CFD</h4>
+                  <p class="session-speaker">Noura</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-venue">
+            <h4 class="venue-title">Room 246 (Tutorial Room 2)</h4>
+            <div class="venue-sessions">
+              <div class="session-card" data-type="workshops">
+                <div class="session-time">12:15 - 1:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">Data Analysis</h4>
+                  <p class="session-speaker">Abdelrahman Hossam Eldin</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="workshops">
+                <div class="session-time">3:15 - 4:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">HVAC</h4>
+                  <p class="session-speaker">Ahmed Emad</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mentorship Circles -->
+      <div class="session-type-section" id="mentorship-circles">
+        <h3 class="session-type-title">Mentorship Circles</h3>
+        <div class="agenda-grid">
+          <div class="agenda-venue">
+            <h4 class="venue-title">Room 243 (Meeting Room 1)</h4>
+            <div class="venue-sessions">
+              <div class="session-card" data-type="mentorship">
+                <div class="session-time">11:45 - 1:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">Technology</h4>
+                  <p class="session-speaker">Enab Ali</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="mentorship">
+                <div class="session-time">1:15 - 3:00</div>
+                <div class="session-content">
+                  <h4 class="session-title">Supply Chain</h4>
+                  <p class="session-speaker">Mohamed Salama</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="mentorship">
+                <div class="session-time">3:15 - 4:45</div>
+                <div class="session-content">
+                  <h4 class="session-title">BIM</h4>
+                  <p class="session-speaker">Ahmed Ragab</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-venue">
+            <h4 class="venue-title">Room 343 (Meeting Room 2)</h4>
+            <div class="venue-sessions">
+              <div class="session-card" data-type="mentorship">
+                <div class="session-time">11:45 - 1:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">Desalination</h4>
+                  <p class="session-speaker">Ahmed Khairy</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="mentorship">
+                <div class="session-time">1:15 - 3:00</div>
+                <div class="session-content">
+                  <h4 class="session-title">PLCs and Control Systems</h4>
+                  <p class="session-speaker">Abdallah Behiry</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="mentorship">
+                <div class="session-time">2:15 - 3:15</div>
+                <div class="session-content">
+                  <h4 class="session-title">Product Lifecycle</h4>
+                  <p class="session-speaker">Mahmoud Sakr</p>
+                </div>
+              </div>
+              
+              <div class="session-card" data-type="mentorship">
+                <div class="session-time">3:30 - 4:30</div>
+                <div class="session-content">
+                  <h4 class="session-title">CFD</h4>
+                  <p class="session-speaker">Noura</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MAIN Segment. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function printAgenda() {
+      // Create a link to the PDF file
+      const link = document.createElement('a');
+      link.href = 'Agenda.pdf';
+      link.download = 'MAIN_Segment_2025_Agenda.pdf';
+      link.target = '_blank';
+      
+      // Trigger the download
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    // Session type navigation functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const sessionTypeButtons = document.querySelectorAll('.session-type-btn');
+      const sessionTypeSections = document.querySelectorAll('.session-type-section');
+      const sessionCards = document.querySelectorAll('.session-card');
+
+      function filterSessions(type) {
+        // Hide all sections first
+        sessionTypeSections.forEach(section => {
+          section.style.display = 'none';
+        });
+
+        // Show/hide session cards based on type
+        sessionCards.forEach(card => {
+          if (type === 'all' || card.getAttribute('data-type') === type) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        // Show sections that have visible cards
+        if (type === 'all') {
+          sessionTypeSections.forEach(section => {
+            section.style.display = 'block';
+          });
+        } else {
+          const targetSection = document.getElementById(type === 'panel' ? 'panel-discussions' : 
+                                                   type === 'talks' ? 'talks' : 
+                                                   type === 'workshops' ? 'workshops' : 
+                                                   type === 'mentorship' ? 'mentorship-circles' : '');
+          if (targetSection) {
+            targetSection.style.display = 'block';
+          }
+        }
+      }
+
+      // Add click event listeners to buttons
+      sessionTypeButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          sessionTypeButtons.forEach(btn => btn.classList.remove('active'));
+          // Add active class to clicked button
+          this.classList.add('active');
+          // Filter sessions
+          filterSessions(this.getAttribute('data-type'));
+          
+          // Smooth scroll to show the change
+          setTimeout(() => {
+            const type = this.getAttribute('data-type');
+            let targetSection;
+            
+            if (type === 'all') {
+              // For "All Sessions", scroll to the first section
+              targetSection = document.querySelector('.session-type-section');
+            } else {
+              // For specific types, find the visible section
+              targetSection = document.querySelector('.session-type-section[style*="display: block"]');
+            }
+            
+            if (targetSection) {
+              targetSection.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start',
+                inline: 'nearest'
+              });
+            }
+          }, 100);
+        });
+      });
+    });
+  </script>
+</body>
+</html> 
