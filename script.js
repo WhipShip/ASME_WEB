@@ -285,6 +285,17 @@ document.addEventListener('DOMContentLoaded', function() {
         location: 'Prof. Reem Bahgat Hall (Main Stage)'
       }
     },
+    'Ahmed Yasser': {
+      initial: 'A',
+      image: 'Speakers/Ahmed_Yasser.png',
+      title: 'President of ASME Cairo University',
+      session: {
+        title: 'EUI x ASME CU Opening Talk',
+        date: 'August 9, 2025',
+        time: '09:45 - 10:30',
+        location: 'Prof. Reem Bahgat Hall (Main Stage)'
+      }
+    },
     'Dr. Shereen': {
       initial: 'S',
       image: 'Speakers/Shereen.png',
@@ -517,6 +528,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     'Noura Tarek': {
+      image: 'Speakers/Noura_Tarek.png',
       initial: 'N',
       title: 'CFD Engineer @ Capgemini Egypt',
       session: {
@@ -538,6 +550,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     'Ahmed Emad': {
+      image: 'Speakers/Ahmed_Emad.jpg',
       initial: 'A',
       title: 'Speaker',
       session: {
@@ -548,6 +561,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     'Ehab Ali': {
+      image: 'Speakers/Ehab_Ali.png',
       initial: 'E',
       title: 'Speaker',
       session: {
@@ -613,6 +627,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     'Ahmed Abdelazeem': {
+      image: 'Speakers/Ahmed_Abdelazim.jpg',
       initial: 'A',
       title: 'Moderator',
       session: {
@@ -623,6 +638,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     'Mohamed Salah': {
+      image: 'Speakers/Mohamed_Salah.png',
       initial: 'M',
       title: 'Moderator',
       session: {
@@ -633,6 +649,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     },
     'Khoulod': {
+      image: 'Speakers/Kholoud.png',
       initial: 'K',
       title: 'Moderator',
       session: {
