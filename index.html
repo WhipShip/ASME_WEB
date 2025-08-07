@@ -34,13 +34,43 @@
       <img src="assets/top_left_logo.png" alt="MAIN Segment Logo" class="logo-image" id="logo-scrolled" style="display: none;">
     </div>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#workshops">Workshops</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <!--<a href="#register" class="register-btn">Register Now</a> -->
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="speakers.html">Speakers</a></li>
+  <li><a href="agenda.html">Agenda</a></li>
+  <li><a href="#workshops">Workshops</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu-btn" id="mobileMenuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+    <div class="mobile-menu-content">
+      <div class="mobile-menu-header">
+        <div class="mobile-menu-logo">
+          <img src="assets/top_left_logoW.png" alt="MAIN Segment Logo" class="logo-image">
+        </div>
+        <button class="mobile-menu-close" id="mobileMenuClose">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="speakers.html" class="mobile-nav-link">Speakers</a></li>
+        <li><a href="agenda.html" class="mobile-nav-link">Agenda</a></li>
+        <li><a href="#workshops" class="mobile-nav-link">Workshops</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 
   <!-- Hero Section -->
   <section id="home" class="hero-section">
@@ -387,6 +417,84 @@
       <p><strong>Social Media:</strong> <a href="https://linktr.ee/asmecairouniversity" target="_blank" class="social-link">https://linktr.ee/asmecairouniversity</a></p>
     </div>
   </section>
+
+  <!-- Speaker Modal -->
+  <div id="speakerModal" class="speaker-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      
+      <!-- Desktop Navigation Arrows (outside the box) -->
+      <button class="modal-nav-arrow modal-nav-prev" id="modalNavPrev">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="15,18 9,12 15,6"></polyline>
+        </svg>
+      </button>
+      <button class="modal-nav-arrow modal-nav-next" id="modalNavNext">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="9,18 15,12 9,6"></polyline>
+        </svg>
+      </button>
+      
+      <div class="modal-body">
+        <div class="modal-speaker-info">
+          <div class="modal-speaker-image">
+            <div class="modal-speaker-placeholder">
+              <span class="modal-speaker-initial" id="modalSpeakerInitial">A</span>
+            </div>
+          </div>
+          <div class="modal-speaker-details">
+            <h2 class="modal-speaker-name" id="modalSpeakerName">Speaker Name</h2>
+            <p class="modal-speaker-title" id="modalSpeakerTitle">Speaker Title</p>
+          </div>
+        </div>
+        <div class="modal-sessions">
+          <h3>Sessions by Speaker</h3>
+          <div class="session-item">
+            <h4 class="session-title" id="modalSessionTitle">Session Title</h4>
+            <div class="session-details">
+              <div class="session-detail">
+                <svg class="session-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span id="modalSessionDate">Day - 3 : Sat, Apr 12, 2025</span>
+              </div>
+              <div class="session-detail">
+                <svg class="session-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12,6 12,12 16,14"></polyline>
+                </svg>
+                <span id="modalSessionTime">11:15 AM - 12:00 PM (EET)</span>
+              </div>
+              <div class="session-detail">
+                <svg class="session-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span id="modalSessionLocation">Auditorium</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Mobile Navigation Arrows (bottom of the box) -->
+        <div class="modal-mobile-nav">
+          <button class="modal-mobile-nav-arrow modal-mobile-nav-prev" id="modalMobileNavPrev">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="15,18 9,12 15,6"></polyline>
+            </svg>
+          </button>
+          <button class="modal-mobile-nav-arrow modal-mobile-nav-next" id="modalMobileNavNext">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="9,18 15,12 9,6"></polyline>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <p>&copy; 2025 MAIN Segment. All rights reserved.</p>
