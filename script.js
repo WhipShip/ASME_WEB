@@ -263,6 +263,28 @@ document.addEventListener('DOMContentLoaded', function() {
         location: 'Prof. Reem Bahgat Hall (Main Stage)'
       }
     },
+    'Ahmed Adel': {
+      initial: 'A',
+      image: 'Speakers/Ahmed_Adel.png',
+      title: 'Founder of CardoO',
+      session: {
+        title: 'Smart Technologies, Smart Future with AI',
+        date: 'August 9, 2025',
+        time: '4:45 - 5:30',
+        location: 'Prof. Reem Bahgat Hall (Main Stage)'
+      }
+    },
+    'Adel Samir': {
+      image: 'Speakers/Adel_Samir.png',
+      initial: 'A',
+      title: 'Chief Human Resources Officer @ Elmarakby Steel',
+      session: {
+        title: 'Real Career Journeys',
+        date: 'August 9, 2025',
+        time: '1:45 - 2:30',
+        location: 'Prof. Reem Bahgat Hall (Main Stage)'
+      }
+    },
     'Dr. Shereen': {
       initial: 'S',
       image: 'Speakers/Shereen.png',
@@ -307,16 +329,6 @@ document.addEventListener('DOMContentLoaded', function() {
         location: 'Prof. Reem Bahgat Hall (Main Stage)'
       }
     },
-    'Ahmed Abdelazeem': {
-      initial: 'A',
-      title: 'Moderator',
-      session: {
-        title: 'Supply Chain: Transforming Industry with Innovative Solutions',
-        date: 'August 9, 2025',
-        time: '11:15 - 12:15',
-        location: 'Prof. Reem Bahgat Hall (Main Stage)'
-      }
-    },
     'Mohamed Fawzy': {
       initial: 'M',
       image: 'Speakers/Mohamed_Fawzy.png',
@@ -331,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Ahmed Negmeidien': {
       image: 'Speakers/Ahmed_Negm.png',
       initial: 'A',
-      title: 'BIM Manager at EDECS',
+      title: 'BIM Manager @ EDECS',
       session: {
         title: 'The Power of BIM',
         date: 'August 9, 2025',
@@ -347,27 +359,6 @@ document.addEventListener('DOMContentLoaded', function() {
         title: 'The Power of BIM',
         date: 'August 9, 2025',
         time: '12:30 - 1:15',
-        location: 'Prof. Reem Bahgat Hall (Main Stage)'
-      }
-    },
-    'Mohamed Salah': {
-      initial: 'M',
-      title: 'Moderator',
-      session: {
-        title: 'The Power of BIM',
-        date: 'August 9, 2025',
-        time: '12:30 - 1:15',
-        location: 'Prof. Reem Bahgat Hall (Main Stage)'
-      }
-    },
-    'Adel Samir': {
-      image: 'Speakers/Adel_Samir.png',
-      initial: 'A',
-      title: 'Chief Human Resources Officer @ Elmarakby Steel',
-      session: {
-        title: 'Real Career Journeys',
-        date: 'August 9, 2025',
-        time: '1:45 - 2:30',
         location: 'Prof. Reem Bahgat Hall (Main Stage)'
       }
     },
@@ -426,31 +417,10 @@ document.addEventListener('DOMContentLoaded', function() {
         location: 'Prof. Reem Bahgat Hall (Main Stage)'
       }
     },
-    'Ahmed Adel': {
-      initial: 'A',
-      image: 'Speakers/Ahmed_Adel.png',
-      title: 'Founder of CardoO',
-      session: {
-        title: 'Smart Technologies, Smart Future with AI',
-        date: 'August 9, 2025',
-        time: '4:45 - 5:30',
-        location: 'Prof. Reem Bahgat Hall (Main Stage)'
-      }
-    },
     'Ahmed Taha': {
       initial: 'A',
       image: 'Speakers/Ahmed_Taha.jpg',
       title: 'Software team lead @ nfrtix',
-      session: {
-        title: 'Smart Technologies, Smart Future with AI',
-        date: 'August 9, 2025',
-        time: '4:45 - 5:30',
-        location: 'Prof. Reem Bahgat Hall (Main Stage)'
-      }
-    },
-    'Khoulod': {
-      initial: 'K',
-      title: 'Moderator',
       session: {
         title: 'Smart Technologies, Smart Future with AI',
         date: 'August 9, 2025',
@@ -640,6 +610,36 @@ document.addEventListener('DOMContentLoaded', function() {
         date: 'August 9, 2025',
         time: '2:15 - 3:15',
         location: 'Meeting Room 2'
+      }
+    },
+    'Ahmed Abdelazeem': {
+      initial: 'A',
+      title: 'Moderator',
+      session: {
+        title: 'Supply Chain: Transforming Industry with Innovative Solutions',
+        date: 'August 9, 2025',
+        time: '11:15 - 12:15',
+        location: 'Prof. Reem Bahgat Hall (Main Stage)'
+      }
+    },
+    'Mohamed Salah': {
+      initial: 'M',
+      title: 'Moderator',
+      session: {
+        title: 'The Power of BIM',
+        date: 'August 9, 2025',
+        time: '12:30 - 1:15',
+        location: 'Prof. Reem Bahgat Hall (Main Stage)'
+      }
+    },
+    'Khoulod': {
+      initial: 'K',
+      title: 'Moderator',
+      session: {
+        title: 'Smart Technologies, Smart Future with AI',
+        date: 'August 9, 2025',
+        time: '4:45 - 5:30',
+        location: 'Prof. Reem Bahgat Hall (Main Stage)'
       }
     }
   };
